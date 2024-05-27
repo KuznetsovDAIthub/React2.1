@@ -1,0 +1,103 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.title div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  align-self: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.items {
+  width: 780px;
+  min-height: 572px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+
+
+.order {
+  border-radius: 12px;
+  padding: 32px;
+  width: 548px;
+  height: 582px;
+  background-color: #f1f3f4;
+}
+
+.details h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110%;
+  margin-bottom: 24px;
+}
+
+.order_price {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  width: 484px;
+  height: 122px;
+}
+
+.order_price p {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  color: grey;
+  gap: 0px;
+}
+
+.end_price {
+  font-weight: 700 !important;
+  font-size: 64px !important;
+  line-height: 110% !important;
+  color: black !important;
+  text-align: right;
+}
+
+.form {
+  margin-top: 16px;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.form input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px 32px;
+  width: 484px;
+  height: 58px;
+  background-color: #fff;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 16px 32px;
+  width: 516px;
+  height: 58px;
+  font-weight: 600;
+  line-height: 130%;
+  text-align: center;
+  margin-top: 16px;
+  background-color:#393 !important;
+  color: white;
+}

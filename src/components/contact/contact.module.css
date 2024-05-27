@@ -1,0 +1,35 @@
+.items {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-rows: 150px 194px;
+    gap: 32px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+  }
+  
+  .item {
+    padding: 32px;
+    border-radius: 12px;
+    background-color: #f1f3f4;
+  }
+  
+  .item_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #8b8b8b;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  
+  .item_text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    color: #282828;
+    text-align: left;
+  }
+
+  
+  /*# sourceMappingURL=main.css.map */
+  

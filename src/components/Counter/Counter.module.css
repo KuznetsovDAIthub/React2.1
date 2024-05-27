@@ -1,0 +1,34 @@
+
+.add_quantity {
+    width: 200px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .add_change {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+  }
+  .add_change img {
+    border-radius: 6px;
+    width: 58px;
+    height: 58px;
+    scale: 0.5;
+  }
+  
+  .add_number {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    width: 96px;
+    height: 58px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #282828;
+    line-height: 58px;
+  }

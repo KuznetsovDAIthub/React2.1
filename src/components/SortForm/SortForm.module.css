@@ -1,0 +1,47 @@
+.form__wrapper input{
+    border: 1px solid grey;
+    border-radius: 6px;
+    width: 112px;
+    height: 38px;
+}
+
+
+.sort__price input {
+    width: 112px;
+}
+
+.sort__discounted {
+    width: 38px;
+}
+
+.sort__select{
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 8px 8px 8px 16px;
+    width: 200px;
+    height: 36px;
+    width: 200px;
+    padding: 0; 
+}
+
+.form__wrapper{
+    margin:  40px 0  40px 0;
+    height: 36px;
+    width: 1000px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.form__wrapper form{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.form__wrapper label {
+    display: flex;
+    gap: 16px;
+   align-items: center;
+}

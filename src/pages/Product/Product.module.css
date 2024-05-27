@@ -1,0 +1,110 @@
+.none {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 574px;
+  gap: 32px;
+}
+
+.img {
+  width: 780px;
+  max-height: 572px;
+  overflow: hidden;
+}
+
+.info {
+  width: 548px;
+  height: 574px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0.03em;
+  color: #282828;
+}
+
+.price_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
+  color: #282828;
+}
+
+.price_oldprice {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  text-decoration: line-through;
+  color: #8b8b8b;
+  display: flex;
+  align-items: flex-end;
+}
+
+.price_sale {
+  background-color: #393;
+  border-radius: 6px;
+  padding: 4px 8px;
+  width: 67px;
+  height: 34px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 250px;
+  position: relative;
+}
+.text p {
+  overflow: hidden;
+  position: relative;
+}
+
+.read_more_checker {
+  opacity: 0;
+  position: absolute;
+}
+
+.read_more_button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.read_more_checker ~ .read_more_button::after {
+  content: "Read more";
+}
+
+.read_more_checker:checked ~ .read_more_button::after {
+  content: "Less";
+}
+
+.read_more_checker:checked ~ .text {
+  max-height: none;
+}

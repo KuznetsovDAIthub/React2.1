@@ -1,0 +1,31 @@
+.notFound__wrapper{
+    width: 690px;
+    height: 530px;
+    margin: 80px auto;
+}
+.notFound__wrapper h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    text-align: center;
+}
+
+.notFound__wrapper p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: grey;
+}
+
+.notFound__wrapper button{
+    display: block;
+    background-color: green;
+    margin: 32px auto 0px auto;
+    text-align: center;
+    border-radius: 6px;
+    padding: 16px 56px;
+    width: 209px;
+    height: 58px;
+    color: white;
+}

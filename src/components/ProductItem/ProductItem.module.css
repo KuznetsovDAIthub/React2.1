@@ -1,0 +1,77 @@
+  .item {
+    position: relative;
+    width: 316px;
+    height: 422px;
+ 
+  }
+  .item:hover .button{
+    display: block;
+  }
+  .item img {
+    border-bottom: 1px solid #ddd;
+    width: 316px;
+    height: 284px;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    padding: 0px 32px 32px 32px;
+    width: 316px;
+    height: 118px;
+  }
+  .text p {
+    margin-bottom: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .price {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    color: #282828;
+    text-align: left;
+    
+
+  }
+  
+  .oldprice {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-decoration: line-through;
+    color: #8b8b8b;
+  }
+
+
+  .sale{
+    position: absolute;
+    margin: 16px;
+    right: 0;
+    background-color: #393;
+    border-radius: 6px;
+    padding: 4px 8px;
+    width: 67px;
+    height: 34px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .button{
+    position: absolute;
+    top: 220px;
+    display: none;
+    z-index: 2;
+  }
+
+
+
+  .none{
+    display: none;
+  }
